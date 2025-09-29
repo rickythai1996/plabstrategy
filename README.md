@@ -84,7 +84,6 @@
     </style>
 </head>
 <body class="antialiased">
-
     <header class="bg-sapphire text-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <h1 class="text-xl md:text-2xl font-bold">Chiến Lược P-Lab 2025-2030</h1>
@@ -96,16 +95,13 @@
             </div>
         </nav>
     </header>
-
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-        
         <section id="hero" class="text-center mb-12 md:mb-16">
              <h2 class="text-3xl md:text-4xl font-bold text-sapphire mb-4">Tầm nhìn chiến lược P-Lab đến 2030</h2>
              <p class="max-w-3xl mx-auto text-base md:text-lg text-gray-600">
                 Một bản phân tích tương tác về định hướng phát triển của P-Lab, tập trung vào việc củng cố vị thế dẫn đầu, mở rộng thị trường và đổi mới dịch vụ để tiệm cận các chuẩn mực quốc tế.
              </p>
         </section>
-
         <section id="overview" class="mb-12 md:mb-16">
             <h3 class="text-2xl md:text-3xl font-bold text-sapphire text-center mb-8">Các Chỉ Số Trọng Yếu</h3>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-center">
@@ -127,11 +123,9 @@
                 </div>
             </div>
         </section>
-
         <section id="market" class="mb-12 md:mb-16 bg-white p-6 md:p-8 rounded-lg shadow-md">
             <h3 class="text-2xl md:text-3xl font-bold text-sapphire text-center mb-2">Bối Cảnh & Thị Trường</h3>
-            <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Phần này cung cấp một cái nhìn toàn diện về môi trường kinh doanh của P-Lab, từ cấu trúc thị phần, các đối thủ cạnh tranh chính đến phân tích SWOT. Dữ liệu được trực quan hóa để giúp bạn nhanh chóng xác định các cơ hội và thách thức cốt lõi.</p>
-            
+            <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Phần này cung cấp một cái nhìn toàn diện về môi trường kinh doanh của P-Lab, từ cấu trúc thị phần, các đối thủ cạnh tranh chính đến phân tích SWOT. Dữ liệu được trực quan hóa để giúp bạn nhanh chóng xác định các cơ hội và thách thức cốt lõi.</p>   
             <div class="border-b border-gray-200 mb-6">
                 <nav class="-mb-px flex justify-center space-x-4 md:space-x-8" aria-label="Tabs">
                     <button class="tab-btn active whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm" data-tab="market-share">Thị Trường & Cạnh Tranh</button>
@@ -139,7 +133,6 @@
                     <button class="tab-btn whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-gray-500 hover:text-gray-700" data-tab="timeline">Lộ Trình Phát Triển</button>
                 </nav>
             </div>
-
             <div id="tab-content">
                 <div id="market-share-content" class="tab-pane active">
                     <div class="grid md:grid-cols-5 gap-8 items-center">
@@ -158,7 +151,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div id="swot-content" class="tab-pane hidden">
                      <div class="text-center mb-6">
                         <button id="s-o-strategy-btn" class="bg-sapphire text-white font-semibold py-2 px-5 rounded-lg hover:bg-opacity-90 transition-colors">
@@ -207,8 +199,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                
+                </div>     
                 <div id="timeline-content" class="tab-pane hidden">
                     <div class="relative pl-8 border-l-2 border-sapphire-light">
                         <div class="mb-8">
@@ -240,11 +231,9 @@
                 </div>
             </div>
         </section>
-
         <section id="strategy" class="mb-12 md:mb-16">
             <h3 class="text-2xl md:text-3xl font-bold text-sapphire text-center mb-2">Định Hướng Chiến Lược 2025-2030</h3>
             <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Để đạt được tầm nhìn, P-Lab sẽ tập trung vào 4 trụ cột chính, được hỗ trợ bởi nền tảng vững chắc về tổ chức và tài chính. Hãy nhấn vào từng trụ cột để khám phá các mục tiêu và hành động chủ chốt.</p>
-            
             <div id="accordion-container" class="space-y-4">
                 <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-sapphire">
@@ -264,7 +253,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-sapphire">
                         <span data-title="Marketing & Mở Rộng Thị Trường">2. Marketing & Mở Rộng Thị Trường</span>
@@ -283,7 +271,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-sapphire">
                         <span data-title="Phát Triển Ngành Mới – Đào Tạo Kiểm Định">3. Phát Triển Ngành Mới – Đào Tạo Kiểm Định</span>
@@ -302,7 +289,6 @@
                         </div>
                     </div>
                 </div>
-                
                  <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-sapphire">
                         <span data-title="Phát Triển Dịch Vụ Giá Trị Gia Tăng">4. Phát Triển Dịch Vụ Giá Trị Gia Tăng</span>
@@ -323,7 +309,6 @@
                 </div>
             </div>
         </section>
-
         <section id="customers" class="bg-sandstone p-6 md:p-8 rounded-lg shadow-inner">
             <h3 class="text-2xl md:text-3xl font-bold text-sapphire text-center mb-2">Khách Hàng Mục Tiêu</h3>
             <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">Chiến lược của P-Lab được xây dựng dựa trên sự thấu hiểu sâu sắc 5 phân khúc khách hàng chính, mỗi nhóm có những nhu cầu và vai trò khác nhau đối với sự phát triển của công ty.</p>
@@ -355,9 +340,7 @@
                 </div>
             </div>
         </section>
-
     </main>
-    
     <div id="gemini-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 gemini-modal-backdrop hidden">
         <div class="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[90vh] flex flex-col">
             <div class="flex justify-between items-center p-4 border-b">
@@ -373,15 +356,12 @@
             </div>
         </div>
     </div>
-
-
     <footer class="bg-sapphire text-white mt-12">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm">
             <p>&copy; 2025 P-Lab Strategic Interactive Report. All rights reserved.</p>
             <p class="text-gray-400 mt-1">Báo cáo được tạo cho mục đích trình bày nội bộ.</p>
         </div>
     </footer>
-
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const marketShareCtx = document.getElementById('marketShareChart').getContext('2d');
@@ -432,21 +412,17 @@
                     }
                 }
             });
-
             const tabs = document.querySelectorAll('.tab-btn');
             const tabPanes = document.querySelectorAll('.tab-pane');
-
             tabs.forEach(tab => {
                 tab.addEventListener('click', () => {
                     const targetId = tab.dataset.tab + '-content';
-
                     tabs.forEach(t => {
                         t.classList.remove('active', 'text-sapphire');
                         t.classList.add('text-gray-500');
                     });
                     tab.classList.add('active', 'text-sapphire');
                     tab.classList.remove('text-gray-500');
-
                     tabPanes.forEach(pane => {
                         if (pane.id === targetId) {
                             pane.classList.remove('hidden');
@@ -458,7 +434,6 @@
                     });
                 });
             });
-            
             const accordionItems = document.querySelectorAll('.accordion-item');
             accordionItems.forEach(item => {
                 const header = item.querySelector('.accordion-header');
@@ -470,23 +445,19 @@
                     item.classList.toggle('active');
                 });
             });
-
             const modal = document.getElementById('gemini-modal');
             const modalCloseBtn = document.getElementById('gemini-modal-close');
             const modalTitle = document.getElementById('gemini-modal-title');
             const loader = document.getElementById('gemini-loader');
             const responseContainer = document.getElementById('gemini-response');
-
             const showModal = () => modal.classList.remove('hidden');
             const hideModal = () => modal.classList.add('hidden');
-
             modalCloseBtn.addEventListener('click', hideModal);
             modal.addEventListener('click', (e) => {
                 if (e.target === modal) {
                     hideModal();
                 }
             });
-
             function formatResponse(text) {
                 return text
                     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
@@ -494,36 +465,29 @@
                     .replace(/(\<br\>\s*\d+\.\s*)/g, '<br><br>$1') 
                     .replace(/(\<br\>\s*\-\s*)/g, '<br> &bull; ');
             }
-            
             async function callGeminiAPI(prompt, systemPrompt) {
                 showModal();
                 loader.classList.remove('hidden');
                 responseContainer.innerHTML = '';
-                
                 const apiKey = "";
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
-
                 const payload = {
                     contents: [{ parts: [{ text: prompt }] }],
                     systemInstruction: {
                         parts: [{ text: systemPrompt }]
                     },
                 };
-
                 try {
                     const response = await fetch(apiUrl, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(payload)
                     });
-
                     if (!response.ok) {
                         throw new Error(`API error: ${response.statusText}`);
                     }
-
                     const result = await response.json();
-                    const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
-                    
+                    const text = result.candidates?.[0]?.content?.parts?.[0]?.text;  
                     if (text) {
                         responseContainer.innerHTML = formatResponse(text);
                     } else {
@@ -536,7 +500,6 @@
                     loader.classList.add('hidden');
                 }
             }
-            
             document.querySelectorAll('.gemini-brainstorm-btn').forEach(button => {
                 button.addEventListener('click', (e) => {
                     e.stopPropagation();
@@ -544,32 +507,25 @@
                     const title = accordionItem.querySelector('[data-title]').dataset.title;
                     const goal = accordionItem.querySelector('strong').nextSibling.textContent.trim();
                     const actions = Array.from(accordionItem.querySelectorAll('li')).map(li => li.textContent).join(', ');
-
-                    modalTitle.textContent = `✨ Brainstorm cho: ${title}`;
-                    
+                    modalTitle.textContent = `✨ Brainstorm cho: ${title}`; 
                     const systemPrompt = "Bạn là một chuyên gia tư vấn chiến lược kinh doanh hàng đầu, chuyên về ngành đá quý và trang sức tại Việt Nam. Hãy đưa ra những ý tưởng sáng tạo, cụ thể và khả thi bằng tiếng Việt.";
                     const userPrompt = `Dựa trên trụ cột chiến lược của P-Lab là '${title}' với mục tiêu '${goal}', và các hành động chính là '${actions}', hãy đề xuất 3 sáng kiến đột phá, chi tiết để thực thi. Tập trung vào các lĩnh vực sau:
 1.  **Công nghệ & Đổi mới:** Một ý tưởng ứng dụng công nghệ để tạo lợi thế cạnh tranh.
 2.  **Marketing & Trải nghiệm khách hàng:** Một chiến dịch marketing hoặc chương trình chăm sóc khách hàng độc đáo.
-3.  **Hợp tác & Mở rộng:** Một ý tưởng hợp tác với đối tác chiến lược để thúc đẩy mục tiêu.`;
-                    
+3.  **Hợp tác & Mở rộng:** Một ý tưởng hợp tác với đối tác chiến lược để thúc đẩy mục tiêu.`;   
                     callGeminiAPI(userPrompt, systemPrompt);
                 });
             });
-
             document.getElementById('s-o-strategy-btn').addEventListener('click', () => {
                  modalTitle.textContent = `✨ Tạo Chiến lược kết hợp Điểm mạnh & Cơ hội`;
-
                 const strengths = Array.from(document.querySelectorAll('#swot-strengths li')).map(li => li.textContent).join('; ');
                 const opportunities = Array.from(document.querySelectorAll('#swot-opportunities li')).map(li => li.textContent).join('; ');
-                
                 const systemPrompt = "Bạn là một chuyên gia tư vấn chiến lược cấp cao. Nhiệm vụ của bạn là phân tích và kết hợp Điểm mạnh (Strengths) và Cơ hội (Opportunities) để tạo ra các chiến lược tấn công (S-O) sắc bén, thực tế và hiệu quả bằng tiếng Việt.";
                 const userPrompt = `Một công ty kiểm định đá quý (P-Lab) có những Điểm mạnh sau: '${strengths}'. Và họ đang đối mặt với những Cơ hội này: '${opportunities}'.
 Hãy xây dựng 3 chiến lược S-O (Strengths-Opportunities) cụ thể và chi tiết. Với mỗi chiến lược, hãy:
 1.  Nêu rõ Điểm mạnh và Cơ hội nào được kết hợp.
 2.  Mô tả chi tiết chiến lược và các bước thực hiện chính.
 3.  Giải thích tại sao chiến lược đó sẽ tạo ra lợi thế cạnh tranh đột phá.`;
-
                 callGeminiAPI(userPrompt, systemPrompt);
             });
         });
